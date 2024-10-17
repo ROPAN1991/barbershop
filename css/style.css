@@ -8,6 +8,10 @@
     --seconady-text-color-light-theme--: rgba(48, 48, 48, 1);
 }
 
+body {
+    font-family: var(--primary-font-family--);
+}
+
 .list {
     list-style: none;
 }
@@ -19,7 +23,7 @@
 /* START COMPONENTS */
 
 .modal-btn {
-    font-family: var(--primary-font-family--);
+    font-family: inherit;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
@@ -35,7 +39,6 @@
 }
 
 .soical-links-list-link {
-    font-family: var(--primary-font-family--);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -51,7 +54,6 @@
 }
 
 .overtitle {
-    font-family: var(--primary-font-family--);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -69,7 +71,6 @@
 }
 
 .description {
-    font-family: var(--primary-font-family--);
     font-weight: 400;
     font-size: 18px;
     line-height: 1.67;
@@ -80,7 +81,6 @@
 /* END COMPONENTS */
 
 .nav-list-link {
-    font-family: var(--primary-font-family--);
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
@@ -94,7 +94,6 @@
 }
 
 .contact-number {
-    font-family: var(--primary-font-family--);
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
