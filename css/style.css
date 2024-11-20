@@ -71,6 +71,7 @@ ul, ol {
 
 /* START COMPONENTS */
 
+
 .modal-btn {
     min-width: 160px;
     padding: 12px 16px;
@@ -149,12 +150,6 @@ ul, ol {
  align-items: center;
 }
 
-.about-list-item {
-    display: flex;
-}
-
-/* END COMPONENTS */
-
 .nav-list-link {
     font-weight: 600;
     font-size: 12px;
@@ -177,8 +172,56 @@ ul, ol {
     margin-right: 40px;
 }
 
+/* END COMPONENTS */
+
+/* ABOUT START */
+
+.about {
+    margin-bottom: 104px;
+}
+
+.about-list {
+    display: flex;
+}
+
+.about-wrapper {
+    display: flex;
+}
+
+.desc-wrapper {
+    padding-left: 64px;
+    padding-right: 108px;
+    width: 483px;
+}
+
+.about-item:not(:first-child) {
+margin-left: 30px;
+}
+
+.about-pre-title {
+    margin-bottom: 20px;
+}
+
+.about-title {
+    margin-bottom: 20px;
+}
+
+.about-description {
+    margin-bottom: 20px;
+}
+
+.about-text {
+    margin-bottom: 40px;
+}
+
+/* ABOUT END */
+
 
 /* HERO */
+
+.hero {
+    margin-bottom: 130px;
+}
 
 .hero-left-side {
     width: 100px;
@@ -194,4 +237,42 @@ ul, ol {
 }
 
 /* PRICES */
+
+.prices {
+    background-image: url(../images/prices.png);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.prices-pre-title {
+    margin-bottom: 20px;
+}
+
+.prices-title {
+    margin-bottom: 45px;
+}
+
+.list-wrapper {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.prices-list {
+    width: calc((100% - 30px) / 2);
+    padding: 30px 20px;
+}
+
+.prices-list:first-child {
+    margin-right: 30px;
+}
+
+.prices-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices-item:not(:last-child) {
+ margin-bottom: 30px;
+}
+
 
